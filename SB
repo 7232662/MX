@@ -1,0 +1,42 @@
+<script>
+    {
+        const toggleBtnElement = document.querySelector('.toy-details__toggle-btn');
+        const detailsListElement = document.querySelector('.toy-details__details-list');
+        const caretIconElement = document.querySelector('.toggle-btn__caret-icon');
+
+        let isListHidden = true;
+
+        const handleToggleDetailsList = () => {
+            if (isListHidden) {
+                detailsListElement.classList.remove('hidden');
+                caretIconElement.classList.remove('rotated');
+                return isListHidden = false;
+            }
+            detailsListElement.classList.add('hidden');
+            caretIconElement.classList.add('rotated');
+            return isListHidden = true;
+        }
+
+        toggleBtnElement.addEventListener('click', handleToggleDetailsList);
+    }
+</script>
+
+            </span>
+        
+       
+        
+            <span class="labels-signs__wrapper">
+                
+                
+                
+                
+            </span>
+        
+        
+        
+            <a class="info-link" href="/catalog/snowman/blockchain/"><span class="text-wrapper subtitle">Show blockchain info</span></a>
+        
+        
+        
+    </span>
+</span>
